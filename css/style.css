@@ -1,0 +1,188 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'Saira Extra Condensed', serif;
+font-weight: 700;
+text-transform: uppercase;
+color: #343a40;
+}
+/* navbar padding */
+.navbar {
+padding: 10px;
+background-color: white;
+}
+/* change the nav bar items colour and font size*/
+.navbar-right {
+background-color: white;
+}
+.navbar-toggle {
+    background-color: black;
+  }
+li a {
+font-size: 15px;
+color: #bd5d38;
+}
+/* website name design */
+.navbar-brand {
+color: #bd5d38;
+}
+
+/* set background color for the About section */
+.section-1 {
+    background-color: #bd5d38;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    /* profile image design */
+    .avatar {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    }
+    /* intro text designs */
+    .intro {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    }
+    .intro2 {
+    text-align: left;
+    color: white;
+    }
+    /* social media icon designs */
+    .fa {
+    padding: 10px;
+    /* Adjust padding for spacing */
+    font-size: 24px;
+    /* Adjust font size as needed */
+    width: 50px;
+    /* Adjust width for spacing */
+    height: 50px;
+    /* Adjust height for spacing */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: inline-block;
+    /* Ensure inline alignment */
+    vertical-align: middle;
+    /* Align vertically within the container */
+    border: 2px solid white;
+    }
+    .fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    }
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+    .fa-google {
+    background: #dd4b39;
+    color: white;
+    }
+    .fa-instagram {
+        background: rgb(150,47,191);
+        color: white;
+        }
+.icon-bar{
+    background-color: black;
+}
+
+p {
+    line-height: 26px;
+    margin: 0;
+    }
+    .container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    }
+    .d-flex-2 {
+    display: flex;
+    align-items: center;
+    }
+    .timeline-area {
+    padding: 50px 0;
+    }
+    .all-timelines {
+    position: relative;
+    }
+    .all-timelines::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    width: 2px;
+    background: #bd5d38;
+    top: 20px;
+    }
+    .single-timeline {
+    margin-bottom: 22px;
+    }
+    .timeline-blank {
+    width: 50%;
+    }
+    .timeline-text {
+    width: 50%;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    }
+    /* date design */
+    .timeline-text h5 {
+    font-weight: bold;
+    }
+    /* title design */
+    .timeline-text span {
+    color: black;
+    display: block;
+    width: 100%;
+    }
+    /* timeline arrangment */
+    .single-timeline:nth-child(even) .timeline-text span {
+    text-align: right;
+    }
+    .t-square {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -6px;
+    background: #bd5d38;
+    }
+    .single-timeline:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    }
+    .single-timeline:nth-child(even) .t-square {
+    right: -6px;
+    left: unset;
+    }
+    .single-timeline:nth-child(even) .timeline-text {
+    padding-left: 0;
+    padding-right: 30px;
+    text-align: right;
+    }
+    /* carousel slides padding */
+.carousel-content {
+    padding: 50px 0;
+    }
+    /* set background color for the Footer section */
+.section-4 {
+    background-color: #bd5d38;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
